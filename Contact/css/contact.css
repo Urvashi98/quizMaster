@@ -1,0 +1,163 @@
+nav {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+nav a {
+    margin-left: 10px;
+    color: #3aafa9;
+}
+
+#navbar {
+    background-color: #333;
+}
+
+.navbar-nav #a1:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+nav {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.navbar-nav #dashboard:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #login_button:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #signup_button:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #logout:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+#nav-name {
+    color: #3aafa9;
+    padding-right: 1%;
+    font-size: x-large;
+}
+
+#useremail {
+    font-size: smaller;
+}
+
+.right {
+    position: relative;
+    float: right;
+}
+
+#collapsibleNavbar {
+    padding-left: 10%;
+}
+
+#login {
+    padding-left: 60%;
+}
+
+#useremail {
+    margin: auto;
+    color: white;
+}
+
+body {
+    background-image: url(apple.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+}
+.card:hover {
+    transform: scale(1.2);
+}
+
+.botui-app-container {
+    height: auto;
+    width: 80%;
+}
+
+.botui-message-content.text {
+    background-color: #3aafa9;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 5%;
+    ;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding: 3px 3px 5px 10px;
+}
+
+.botui-actions-buttons {
+    text-align: center;
+}
+
+button.botui-actions-buttons-button {
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #d5d5d5;
+}
+
+.botui-message-content.human {
+    background-color: #d5d5d5;
+    color: black;
+}
+
+footer {
+    background-color: white;
+    color: black;
+}
+
+#footerlink {
+    margin-top: 8px;
+}
+#footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#copywrite {
+    background-color: #17252a;
+}
+
+#copywrite p {
+    color: white;
+    margin-top: 8px;
+
+}
+
+#copywrite a {
+    color: white;
+}
+
+@media all and (min-width:600px) and (max-width:1440px) {
+    #footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}

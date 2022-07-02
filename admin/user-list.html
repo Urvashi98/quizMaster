@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- favicon -->
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/admin/css/style.css">
+
+   </head>
+
+    <body>
+
+<!-- header -->
+      
+<nav class="navbar navbar-expand-lg" id="navbar">
+  <a href="dashboard.html">
+    <i class="fas fa-users fa-4x  text-white"></i>
+  </a>
+
+  <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+    <!-- left section of navbar -->
+    <ul class="navbar-nav" id="links">
+      <li class="nav-item nav-link-to-pages">
+        <a class="nav-link text-white"  href="questions.html">Questions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="user-list.html">Users</a>
+      </li>
+    </ul>
+    <!-- right section of navbar -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link text-white pt-3 " href="authentication/login.html">Welcome, Admin</a>
+      </li>
+      <li class="nav-item">
+        <span class="text-white mb-4" id="today_date"></span>
+      </li>
+      <div class="logout">
+        <i class="fas fa-power-off fa-2x" id="sign-out"></i>
+      </div>
+  </div>
+</nav>
+
+<!-- header - end -->
+   
+<!-- container -->
+
+    <a href="dashboard.html" type="button" id="goback" class="btn btn-secondary m-4" value="Submit">Go back</a><!-- go back to previous page -->
+
+      <div class="container-fluid container-bottom">
+          <div class="row justify-content-center m-5">
+            
+            <h3 >User list</h3><br>
+            <br>
+            <table class="table table-hover">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Id</th>
+                  <th>Email</th>
+                  <th>Password</th>
+                  <th>Phone</th>
+                  <th align="centre">Operation</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="userList" class="firebase">
+              
+              </tbody>
+            </table>
+
+          </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="res-footer">
+        <p>admin@cybage20</p>
+     </footer>
+
+     <!-- scripts -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+      <!-- Firebase dependencies -->
+     <!--  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+      <script src="/authentication/js/firebase.js"></script>   -->
+
+      <script>
+       /*  firebase.auth().onAuthStateChanged(function(user) {
+        console.log("In useer Authentication of instruction!!")
+            if (user) {
+            var userId = firebase.auth().currentUser.uid;     // User is signed in.
+            console.log("UserId",userId);
+                if(userId != null){
+                    console.log("from  instruction:",userId);
+                }   
+        } else {
+            // No user is signed in
+            console.log("In else not signed in from instruction.......");
+            window.location.href = "../index.html";
+            }
+        });  */
+    </script> 
+
+     <!-- custom js -->
+      <script src="/admin/js/auth.js"></script>
+      <script src="/admin/js/index.js"></script>
+      <script src="/admin/js/user-list.js"></script>
+</body>
+</html>

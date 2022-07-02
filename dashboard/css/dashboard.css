@@ -1,0 +1,206 @@
+nav{
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  
+
+}
+nav a {
+  margin-left: 10px;
+}
+#navbar {
+background-color: #333;
+
+}
+
+#idLog{
+  position: absolute;
+  right: 0;
+  float: right;
+}
+#useremail {
+  margin: auto;
+  color: white;
+}
+
+.navbar-nav #a1:hover {
+ 
+  background-color:hsl(177, 50%, 46%) ;
+  color: white;
+  
+}
+.navbar-nav #dashboard:hover {
+ 
+  background-color:#3aafa9 ;
+  color: white;
+  
+}
+nav {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+.navbar-nav #login_button:hover {
+ 
+  background-color:#3aafa9 ;
+  color: white;
+  
+}
+.navbar-nav #signup_button:hover {
+ 
+  background-color:#3aafa9 ;
+  color: white;
+  
+}
+.navbar-nav #logout:hover {
+ 
+  background-color:#3aafa9 ;
+  color: white;
+  
+
+}
+#nav-name{
+  color: #3aafa9;
+   padding-right:1%; 
+   font-size: x-large;
+}
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+#useremail{
+  color: white;
+  font-size: smaller;
+}
+ .right{
+  position:relative;
+  float:right;
+ 
+}
+#collapsibleNavbar{
+  padding-left: 10%;
+
+}
+
+#login{
+padding-left: 60%;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}body
+{
+    
+    background-image: url(/dashboard/images/mainBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+#pass
+{
+    background-color: hsl(177, 41%, 53%);
+}
+#fail
+{
+    background-color: #f7b4b3;
+}
+h5{
+    color: black;
+}
+#table
+{
+    color:blanchedalmond;
+}
+caption
+{
+    color: blanchedalmond;
+}
+p
+{
+    color: black;
+}
+
+.mainfooter
+{
+      position: fixed;
+     bottom: 0; 
+/* background-color:#ccc6c6;  justify-content: center; */ 
+}
+
+footer {
+  background-color: white;
+  color: black;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}
+
+#footerlink {
+  margin-top: 8px;
+}
+
+#copywrite {
+  background-color: #17252a;
+}
+
+#copywrite p {
+  color: white;
+  margin-top: 8px;
+
+}
+
+#copywrite a {
+  color: white;
+}
+
+
+#historyStat {
+    display: none;
+}
+
+
+
+#pass, #fail, #attempted {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#pass, #fail, #attempted {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+}
+canvas {
+  background-color: gray;
+  
+}
+#pass:hover, #fail:hover, #attempted:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.graph{
+  padding-left: 20%;
+  padding-right:20%;
+  padding-top:10%;
+}
+h2{
+  text-align: center;
+  color: black;
+}
+td,th {
+  text-align: center;
+}
+caption {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.card-group {
+  width: 100%;
+}
+h3 {
+  margin-top: 5%;
+}

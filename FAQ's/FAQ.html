@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/FAQ.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- favicon -->
+   <link rel="icon" href="/favicon.jpg" type="image/jpeg" sizes="16x16">
+
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <title>FAQ</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+    <a class="navbar-brand" href="#" id="nav-name">Quiz Master</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar" style="padding-left:1%;">
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" id="a1" href="../index.html">Home</a>
+        </li>
+      
+        <li class="nav-item">
+
+          <a class="nav-link" id="a1" href="../AboutUS/aboutus.html">About Us</a>
+        </li>
+
+        <li class="nav-item">
+
+          <a class="nav-link" id="a1" href="../FAQ's/FAQ.html">FAQ's</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="../dashboard/dashboard.html" id="dashboard">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="a1" href="../Contact/contact.html">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+
+          <a class="nav-link" href="../authentication/login.html" id="login_button">Login</a>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../authentication/signUp.html" id="signup_button">Sign-Up</a>
+
+        </li>
+        <li class="nav-item float-left">
+          <a class="nav-link"><i class="fa fa-user" id="login_icon"></i></a>
+        </li></span>
+
+        <p id="useremail"></p>
+        <li class="nav-item">
+          <a class="nav-link" id="logout" onclick="logout(event)" style="text-align:center"> <i class="fas fa-power-off fa-1x p-2" id="sign-out"></i></a>
+        </li>
+        </li>
+      </ul>
+
+    </div>
+
+
+  </nav>
+  <header>
+    Frequently Asked Questions(FAQs)
+  </header>
+  <br><br>
+<section>
+  <div class="faq_container">
+        <div class="faq">
+            <div class="faq_question">How many questions are there in the quiz?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Ans- Generally the quiz consists of 10 questions.</div>
+            </div>
+        </div><br>
+
+        <div class="faq">
+            <div class="faq_question">Is there any negative marking?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Ans- No there is no negative marking.</div>
+            </div>
+        </div> <br
+ >
+        <div class="faq">
+            <div class="faq_question">What is the time alloted for the quiz?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Ans- You will get 3 minutes for a quiz</div>
+            </div>
+        </div>
+        <br>     
+        <div class="faq">
+          <div class="faq_question">How many attempts are allowed?</div>
+          <div class="faq_answer_container">
+              <div class="faq_answer">Ans- You can take as many attempts as you like, there is no limit.</div>
+          </div>
+      </div>
+      <br>
+      <div class="faq">
+        <div class="faq_question">Where can I see the results?</div>
+        <div class="faq_answer_container">
+            <div class="faq_answer">Ans-The quiz results will be displayed on your screen as soon as you submit the quiz.</div>
+        </div>
+    </div>  <br>
+    <div class="faq">
+      <div class="faq_question">Is the quiz paid?</div>
+      <div class="faq_answer_container">
+          <div class="faq_answer">Ans- No there are no charges for the quiz.</div>
+      </div>
+  </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <footer class="mainfooter" role="contentinfo" id="footer">
+        <div class="footer-middle">
+            <div class="container-fluid">
+                <div class="row text-center" id="copywrite">
+                    <div class="col-lg-8 col-md-9 copy">
+                        <p class="text-center">© Copyright 2021 - Quiz Master. All rights reserved.</p>
+                    </div>
+                    <div class=" col-md-3">
+                        <ul class="social-network social-circle" id="footerlink">
+                            <a href="#" class="icoFacebook p-2" title="Facebook"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="icoLinkedin p-2" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="icoFacebook p-2" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="icoLinkedin p-2" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    
+    <!-- Firebase dependencies -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+    <script src="/authentication/js/firebase.js"></script>                          <!-- containes the firebase web app crendentials -->
+    <script src="/authentication/js/onStateAuth.js"></script>                       <!-- contains the State of the user i.e loggedin or not -->
+    <script src="js/FAQ.js"></script>                                               <!-- CUSTOM JS SCRIPT -->
+    <script src="/userLogout.js"></script>                                          <!-- contains user logout code -->
+</body>
+</html>

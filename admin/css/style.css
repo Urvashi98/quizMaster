@@ -1,0 +1,227 @@
+/* nav bar */
+html,body{
+    overflow-x: hidden;
+}
+#navbar{
+    background-color: rgb(8, 8, 8);  
+    height: auto;
+}
+.custom-toggler .navbar-toggler-icon {
+    
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#goback:hover{
+    background-color: #bdb5b4;
+    color: black;
+} 
+
+.nav-link-to-pages{
+    margin-left: 100px;
+}
+.nav-link{
+    padding: 10px;
+    margin: 2px;
+}
+#navbarTogglerDemo02 > ul > li:hover a{
+    color: grey;
+}
+.nav-item{
+    font-size: 24px;
+}
+nav {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+/* header */
+.jumbotron{
+    height:auto;
+    padding: 10px;
+    background-color: rgb(8, 8, 8);  
+}
+.loginform{
+    height:auto;
+    padding: 10px;
+    background-color: rgb(8, 8, 8);  
+}
+#login{
+    color: white;
+    border: 1px solid white;
+}
+#login:hover{
+    background-color: rgb(183, 196, 204);
+    color: black;
+}
+.edit{
+    margin: 15px;
+    margin-top: 0;
+   /*  align-self: center; */
+   color: rgb(255, 196, 0);
+
+}
+.delete{
+    margin-left: 0px;
+    margin-top: 0;
+   /*  align-self: center; */
+   color: rgb(255, 0, 0);
+
+}
+.questions{
+    background-color: #1976d2;
+    border-radius: 5px;
+    color: white;
+}
+.users{
+    background-color:#2e7d32;
+    border-radius: 5px;
+    color: white;
+}
+.total_questions{
+    background-color:#ffa000;
+    border-radius: 5px;
+    color: white;
+}
+#total_questions, #total_users{
+    font-size: 24px;
+}
+.total_users{
+    background-color: #e53935;
+    border-radius: 5px;
+    color: white;
+
+}
+ #sign-out{
+    color: white;
+    float: right;
+    margin: 10px;
+}
+
+.logout :hover{
+    color: grey;
+}
+.icon-position{
+    display:inline;
+    float:right;
+    color: white;
+}
+.icon-position :hover{
+   color: grey;
+}
+.logo{
+    display: inline-block;
+    margin: 0;
+   height: 100px;
+   width: 100px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.logout{
+    margin: 10px;
+    width: auto;
+    height: 50px;
+   color: white; 
+    float: right;
+   cursor: pointer;
+}
+/* container-fluid */
+.container-bottom{
+    padding-bottom: 200px;
+}
+.container-top{
+    padding-top: 15vh;
+}
+th{
+    padding:10px;
+}
+table{
+    box-shadow: 14px 24px 48px 5px #bfdaf5;
+}
+.btn-color-chnage{
+    background-color: rgb(96, 200, 169);
+    color: white;
+}
+
+
+
+/* footer! */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    background-color:#000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.capitalise
+{
+    text-transform:capitalize;
+}
+.showData {
+ 
+    width: auto;
+    height: auto;
+}
+.dropdown-showhide{
+    display: none;
+}
+.card{
+    margin: 20px;
+    vertical-align:middle;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.card-title{
+
+    font-weight: bold;
+    font-size: 24px;
+}
+.card:hover{
+    box-shadow: 14px 24px 48px 5px #43474b;
+}
+/* .card-text{
+    color: white;
+} */
+
+
+@media screen and (min-width:260px) and (max-width:769px){
+ 
+    #navbar{
+        background-color: rgb(8, 8, 8);  
+        height: auto;
+        width: 100%;
+        margin-right: 10px;
+    }
+    .logout{
+        margin-top: 0;
+        padding-top: 10px;
+        width: 100%;
+        height: 50px;  
+        font-size: 10px;
+    }
+    .res-footer{
+        height: 50px;
+    }
+    .res-jumbotron{
+        width: 100%;
+    }
+    .card{
+       margin: 20px;
+    }
+    .nav-link-to-pages{
+        margin-left:0;
+    }
+    .nav-item{
+        font-size: 16px;
+    }
+    #total_questions, #total_users{
+        font-size: 16px;
+    }
+    .card-title{
+        font-weight: bold;
+        font-size: 16px;
+    }
+}

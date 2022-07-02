@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+<meta name="viewport" content="width=device-width ,initial-scale=1.0">  
+<meta charset="utf-8">
+<title>Forget Password</title>
+ <!-- favicon -->
+ <link rel="icon" href="/favicon.jpg" type="image/jpeg" sizes="16x16">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" /> 
+
+<link rel="stylesheet" href="css/forgot.css">    <!-- CUSTOMN CSS -->
+
+</head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Forgot Password?</h2>
+            </div>
+            <form class="form" id="form">
+               
+            <div class="form-control">
+                <label>Email</label>
+                <input type="Email"  id="email" placeholder="Enter your Email" >
+              
+            </div>  
+
+            <button class="btn" id="forget" onclick="forgetPassword()">Reset Password</button>
+            <br>
+
+            <!-- Firebase dependencies -->
+            <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+            <script src="/authentication/js/firebase.js"></script>                   <!-- containes the firebase web app crendentials -->    
+            <script src="/authentication/js/app.js"></script>                        <!-- contains the main authentication functionality -->
+            <script src="/authentication/js/onStateAuth.js"></script>
+            <script src="/authentication/js/validations.js"></script>                <!-- contains the State of the user i.e loggedin or not -->
+        
+            </form>
+        </div>
+    </body>
+</html>

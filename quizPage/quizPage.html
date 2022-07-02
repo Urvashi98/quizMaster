@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <!-- favicon -->
+    <link rel="icon" href="/favicon.jpg" type="image/jpeg" sizes="16x16">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="../quizPage/css/quizapp.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="../quizPage/js/quizPage.js" defer></script>
+    <title>Quiz Master</title>
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+        <a class="navbar-brand" href="#" id="nav-name">Quiz Master</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            id="collapse_button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" id="a1" href="../index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" id="a1" href="../AboutUS/aboutus.html">About Us</a>
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" id="a1" href="../FAQ's/FAQ.html">FAQ</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../dashboard/dashboard.html" id="dashboard">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="a1" href="../Contact/contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto" id="idLog">
+                <li class="nav-item">
+
+                    <a class="nav-link" href="authentication/login.html" id="login_button">Login</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="authentication/signUp.html" id="signup_button">Sign-Up</a>
+
+                </li>
+                <li class="nav-item float-left">
+                    <a class="nav-link"><i class="fa fa-user" id="login_icon"></i></a>
+                </li>
+                </span>
+
+                <p id="useremail"></p>
+                <li class="nav-item">
+                    <a class="nav-link" id="logout" onclick="logout(event)" style="text-align:center"> <i
+                            class="fas fa-power-off fa-1x p-2" id="sign-out"></i></a>
+                </li>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </nav>
+
+
+    <div class="container col-12 col-sm-12 col-md-6 mt-4" id="quiz_card">
+        <div class="row">
+        </div>
+
+        <div class="container col-12 col-sm-12 col-md-6 align-items-center wrapper2" id="quiz">
+            <div class="col">
+                <h3 class="topic"></h3>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col">
+                        <p class="lead">Question <span id="currQus">1</span> out of <span id="totalQues"></span></p>
+                    </div>
+                    <div class="col">
+
+                        <p class="timeLeft">Time Left: &nbsp;<span id="time"> 00:00</span></p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" id="question">1. What does HTML stand for?</h5><br>
+
+                            <div class="queImage">
+                                <img src="" alt="image" id="quesImg">
+                            </div>
+
+                            <div class="options">
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 op1">
+
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1"
+                                            autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="btnradio1" id="ops1"></label>
+
+
+                                    </div>
+                                    <div class="col-12 col-sm-6  op2">
+                                        <input type="radio" class="btn-check btn" name="btnradio" id="btnradio2"
+                                            autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="btnradio2" id="ops2"></label>
+                                    </div>
+                                </div>
+                                <div class="row ">
+                                    <div class="col-12 col-sm-6  op3">
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio3"
+                                            autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="btnradio3" id="ops3"></label>
+                                    </div>
+                                    <div class="col-12 col-sm-6 op4">
+                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio4"
+                                            autocomplete="off">
+                                        <label class="btn btn-outline-primary" for="btnradio4" id="ops4"></label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <div class="row justify-content-center">
+                        <div class="col">
+                            <button class="btn btn-primary " id="prev">Prev</button>
+                            <button class="btn btn-primary " id="next">Next</button>
+                            <button class="btn btn-primary " id="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+   
+
+    <!-- Firebase dependencies -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+    <script src="/authentication/js/firebase.js"></script> <!-- containes the firebase web app crendentials -->
+    <script src="/authentication/js/onStateAuth.js"></script>
+    <!-- contains the State of the user i.e loggedin or not -->
+    <script src="/userAuthState.js"></script> <!-- maintains the user state throughout the page -->
+    <script src="/userLogout.js"></script> <!-- contains user logout code -->
+
+</body>
+
+</html>

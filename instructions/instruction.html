@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruction</title>
+     <!-- favicon -->
+  <link rel="icon" href="/favicon.jpg" type="image/jpeg" sizes="16x16">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <link rel="stylesheet" href="css/instruction.css" class="css">
+</head>
+<body>
+    <!-- Instruction Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Instructions </span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>3 Minutes</span> for the Quiz.</div>
+            <div class="info">2. You can modify your previous answers.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the till all questions attempted.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit"  onclick="location.href = '../index.html'">Exit Quiz</button>
+            <button class="restart" onclick="location.href = '../quizPage/quizPage.html'">Continue</button>
+        </div>
+    </div>
+
+    <!-- Firebase dependencies -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+    <script src="/authentication/js/firebase.js"></script>                           <!-- containes the firebase web app crendentials -->
+    <script src="/userAuthState.js"></script>                                        <!-- maintains the user state throughout the page -->
+</body>
+</html>

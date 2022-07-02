@@ -1,0 +1,195 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- favicon -->
+   <link rel="icon" href="/favicon.jpg" type="image/jpeg" sizes="16x16">
+
+   <!-- font Awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   <title>My DashBoard</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  <link rel="stylesheet" href="css/dashboard.css">
+ 
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+    <a class="navbar-brand" href="#" id="nav-name">Quiz Master</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" id="a1" href="../index.html">Home</a>
+            </li>
+          
+            <li class="nav-item">
+
+                <a class="nav-link" id="a1" href="../AboutUS/aboutus.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" id="a1" href="../FAQ's/FAQ.html">FAQ's</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="../dashboard/dashboard.html" id="dashboard">Dashboard</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="a1" href="../Contact/contact.html">Contact</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+
+                <a class="nav-link" href="authentication/login.html" id="login_button">Login</a>
+
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="authentication/signUp.html" id="signup_button">Sign-Up</a>
+
+            </li>
+            <li class="nav-item float-left">
+                <a class="nav-link"><i class="fa fa-user" id="login_icon"></i></a>
+            </li>
+            </span>
+
+            <p id="useremail"></p>
+            <li class="nav-item">
+                <a class="nav-link" id="logout" onclick="logout(event)" style="text-align:center"> <i class="fas fa-power-off fa-1x p-2" id="sign-out"></i></a>
+            </li>
+            </li>
+        </ul>
+
+    </div>
+
+
+</nav>
+
+  <div class="container">
+
+
+    <div class="row">
+      <div class="card-group">
+
+        <div class="card" id="attempted">
+          <div class="card-body">
+            <h5 class="card-title">Quiz Attempted</h5>
+            <p class="card-text">HTML: <span class="htmlCount"></span></p>
+            <p class="card-text">CSS: <span class="cssCount"></span></p>
+            <p class="card-text">Javascript: <span class="jsCount"></span></p>
+
+            <p class="card-text">SASS: <span class="sassCount"></span></p>
+            <p class="card-text">Node: <span class="nodeCount"></span></p>
+            <p class="card-text">Bootstrap: <span class="bootCount"></span></p>
+          </div>
+        </div>
+        <div class="card" id="pass">
+          <div class="card-body">
+            <h5 class="card-title">Quiz Passed</h5>
+            <p class="card-text">HTML: <span class="htmlpass"></span></p>
+            <p class="card-text">CSS: <span class="csspass"></span></p>
+            <p class="card-text">Javascript: <span class="jspass"></span></p>
+
+            <p class="card-text">SASS: <span class="sasspass"></span></p>
+            <p class="card-text">Node: <span class="nodepass"></span></p>
+            <p class="card-text">Bootstrap: <span class="bootpass"></span></p>
+          </div>
+        </div>
+        <div class="card" id="fail">
+          <div class="card-body">
+            <h5 class="card-title">Quiz Failed</h5>
+            <p class="card-text">HTML: <span class="htmlfail"></span></p>
+            <p class="card-text">CSS: <span class="cssfail"></span></p>
+            <p class="card-text">Javascript: <span class="jsfail"></span></p>
+
+            <p class="card-text">SASS: <span class="sassfail"></span></p>
+            <p class="card-text">Node: <span class="nodefail"></span></p>
+            <p class="card-text">Bootstrap: <span class="bootfail"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h3 class="text-white">List of Quiz Attempted</h3>
+      <table class="table caption-top" id="table">
+        
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Topic</th>
+            <th scope="col">Marks Obtained</th>
+            <th scope="col">Total Marks</th>
+            <th scope="col">Total time taken</th>
+            <th scope="col">Date & time</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr id="historyStat">
+            <td>Quiz History is empty!</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    </div>
+  </div>
+  <div class="graph">
+    <h2>Quiz Analysis</h2>
+    <canvas id="bar-chart" width="500" height="450"></canvas>
+  </div>
+  <br><br>
+
+
+  <footer>
+    <footer class="mainfooter" role="contentinfo" id="footer">
+        <div class="footer-middle">
+            <div class="container-fluid">
+                <div class="row text-center" id="copywrite">
+                    <div class="col-lg-8 col-md-9 copy">
+                        <p class="text-center">© Copyright 2021 - Quiz Master. All rights reserved.</p>
+                    </div>
+                    <div class=" col-md-3">
+                        <ul class="social-network social-circle" id="footerlink">
+                            <a href="#" class="icoFacebook p-2" title="Facebook"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="icoLinkedin p-2" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="icoFacebook p-2" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="icoLinkedin p-2" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+  
+  <!-- FIREBASE DEPENDENCIES -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+
+  <script src="/authentication/js/firebase.js"></script>                                    <!-- containes the firebase web app crendentials -->
+  <script src="/authentication/js/onStateAuth.js"></script>                                 <!-- contains the State of the user i.e loggedin or not -->
+  <script src="/userAuthState.js"></script>                                                 <!-- maintains the user state throughout the page -->
+  <script src="/userLogout.js"></script>                                                    <!-- contains user logout code -->
+  <script src="js/dashfetch.js" defer></script>                                             <!-- shows the user data on the dashboard -->
+  
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+</body>
+
+</html>

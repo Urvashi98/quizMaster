@@ -1,0 +1,275 @@
+#idLog {
+    position: absolute;
+    right: 0;
+    float: right;
+}
+nav a {
+    margin-left: 10px;
+  } 
+#useremail {
+    margin: auto;
+    color: white;
+}
+
+body {
+    background-image: url(apple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.red {
+    background-color: green;
+}
+
+#heading {
+    margin-top: 30px;
+    font-size: 50px;
+    color: black;
+}
+
+#top {
+    margin-top: 50px;
+    color: white;
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+
+#section1 {
+    border: 3px solid white;
+    padding: 15px;
+    margin-top: 70px;
+    width: 485px;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+.hr {
+    width: 100%;
+    margin-top: 30px;
+    border-top: 2px solid white;
+}
+
+.btn1 {
+    height: 40px;
+    width: 180px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: #3aafa9;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    height: z;
+}
+
+.btn1:hover {
+    background: rgb(194, 215, 233);
+}
+
+#result {
+    text-align: center;
+    display: inline-block;
+}
+
+table {
+    border: 1px solid white;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    /* background-color: black; */
+}
+
+tbody {
+    background-color: black;
+}
+
+table tr th {
+    color: white;
+    height: 50px;
+    width: auto;
+    padding: 25px;
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table tr td {
+    /* width: auto; */
+    padding: 20px;
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+    background-color: rgb(231, 245, 248);
+    color: black;
+}
+
+#stat {
+    height: 20px;
+}
+
+#show {
+    border: 0px;
+    /* width: 100%; */
+}
+
+#show tr td {
+    font-size: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+
+#modal {
+    background-color: black;
+}
+#nav-name
+{
+  color:  #3aafa9;
+}
+
+table tr th {
+    color: white;
+    width: auto;
+    padding: 7px;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+table tr td {
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    color: black;
+}
+
+#modal.modal-content {
+    height: 500px;
+}
+
+@media all and (min-width:480px) and (max-width:767px) {
+    #modal.modal-content {
+        height: 300px;
+        width: auto;
+        margin-left: 1px;
+        margin-right: 5px;
+    }
+
+    .modal-body {
+        width: 80%;
+    }
+
+    #table_data {
+        width: 100%;
+    }
+
+    table tr th {
+        color: white;
+        width: auto;
+        padding: 7px;
+        font-size: 20px;
+        margin: 5px;
+        text-align: center;
+    }
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+#footerlink {
+    margin-top: 8px;
+}
+
+#copywrite {
+    background-color: #17252a;
+}
+
+#copywrite p {
+    color: white;
+    margin-top: 8px;
+    margin-left: 440px;
+}
+
+#copywrite a {
+    color: white;
+}
+
+
+
+@media all and (min-width:300px) and (max-width:449px) {
+    #modal.modal-content {
+        height: 500px;
+        width: 100%;
+    }
+
+    .modal-body {
+        width: 80%;
+        height: 500px;
+    }
+
+    #table_data {
+        width: 100%;
+        font-weight: 20px;
+    }
+
+    table tr th {
+        color: white;
+        width: auto;
+        padding: 4px;
+        font-size: 18px;
+        margin: 2px;
+        text-align: center;
+    }
+}
+
+@media all and (min-width:100px) and (max-width:299px) {
+    #modal.modal-content {
+        height: 200px;
+        width: 100%;
+    }
+
+    .modal-body {
+        width: 80%;
+        height: 500px;
+    }
+
+    #table_data {
+        width: 100%;
+        font-weight: 13px;
+    }
+
+    table tr th {
+        color: white;
+        width: auto;
+        font-size: 20px;
+        text-align: center;
+    }
+}

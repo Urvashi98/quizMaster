@@ -1,0 +1,318 @@
+#login {
+    padding-left: 60%;
+}
+
+#useremail {
+    margin: auto;
+    color: white;
+    font-size: smaller;
+}
+
+#logout {
+    float: right;
+    display: none;
+}
+
+
+/* nav-bar */
+
+nav {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#navbar {
+    background-color: #333;
+}
+
+.navbar-nav #a1:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #dashboard:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #login_button:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #signup_button:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #logout:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+#collapsibleNavbar {
+    padding-left: 10%;
+}
+
+.navbar-nav #a1:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+#nav-name {
+    color: #3aafa9;
+    padding-right: 1%;
+    font-size: x-large;
+}
+
+nav {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#collapsibleNavbar {
+    padding-left: 3%;
+}
+
+
+/* body */
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    /* background: url('apple.jpg'); */
+}
+
+.wrapper {
+    padding-top: 2%;
+}
+
+
+/* crousal */
+
+#c_img {
+    width: 60%;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+.carousel-item img {
+    height: 350px;
+}
+
+#carouselExampleIndicators {
+    background-color: black;
+}
+
+
+/* cards */
+
+.card-img-top {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    text-align: center;
+    box-shadow: 0px 15px 15px -8px rgba(27, 26, 26, 0.5);
+    background: rgb(17, 17, 17);
+}
+
+.card-body h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#card1 {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#card3 {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+#card1:hover {
+    transform: scale(1.1);
+}
+
+#card2:hover {
+    transform: scale(1.1);
+}
+
+#card3:hover {
+    transform: scale(1.1);
+}
+
+#a_card1:hover {
+    transform: scale(1.1);
+}
+
+#a_card2:hover {
+    transform: scale(1.1);
+}
+
+#a_card3:hover {
+    transform: scale(1.1);
+}
+
+#a_card4:hover {
+    transform: scale(1.1);
+}
+
+#a_card5:hover {
+    transform: scale(1.1);
+}
+
+#a_card6:hover {
+    transform: scale(1.1);
+}
+
+#a_card7:hover {
+    transform: scale(1.1);
+}
+
+#card_img {
+    height: 250px;
+    background-color: #d5d5d5;
+}
+
+
+/* play-buttons */
+
+.play_button {
+    background-color: #3aafa9;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10%;
+}
+
+.play_button:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
+/* search-box */
+
+#myInput {
+    /*background-image: url('/css/searchicon.png');*/
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid grey;
+    margin-bottom: 12px;
+}
+
+.search_box {
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-right: 20%;
+    background-color: black;
+}
+
+#myUL {
+    list-style-type: none;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+    /* padding: 10px; */
+}
+
+
+/* footer */
+
+footer {
+    background-color: white;
+    color: black;
+}
+
+#footerlink {
+    margin-top: 8px;
+}
+
+#copywrite {
+    background-color: #17252a;
+}
+
+#copywrite p {
+    color: white;
+    margin-top: 8px;
+   
+}
+
+#copywrite a {
+    color: white;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 800px) {
+    .mx-30 {
+        margin-bottom: 30px;
+    }
+}
+#footer {
+    
+    width: 100%;
+    bottom: 0;
+}
+@media all and (min-width: 320px) and (max-width: 600px) {
+    .carousel-item img {
+        height: 300px;
+    }
+    #card_name {
+        font-size: 1rem;
+    }
+    #play_button {
+        font-size: 13px;
+        padding: 5px;
+    }
+    #play_button:hover {
+        transform: scale(1.1);
+    }
+    .mx-30 {
+        size: 2rem;
+    }
+    footer {
+        float: left;
+    }
+}

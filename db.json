@@ -1,0 +1,987 @@
+{
+  "html": [
+    {
+      "question": "which of the following tag is used to mark a begining of paragraph ?",
+      "answer": "P",
+      "option1": "TD",
+      "option2": "TR",
+      "option3": "B",
+      "option4": "P",
+      "img": "../admin/images/",
+      "id": 1
+    },
+    {
+      "question": " The correct HTML tag for the largest heading is _______.",
+      "answer": "h1",
+      "option1": "head",
+      "option2": "h1",
+      "option3": "h6",
+      "option4": "heading",
+      "img": "../admin/images/",
+      "id": 2
+    },
+    {
+      "question": "The attribute of \"form\" tag",
+      "answer": "Both (a)&(b)",
+      "option1": "Method",
+      "option2": "Action",
+      "option3": "Both (a)&(b)",
+      "option4": "None of these",
+      "img": "../admin/images/",
+      "id": 3
+    },
+    {
+      "question": "Markup tags tell the web browser __________.",
+      "answer": "How to display the page",
+      "option1": "How to organise the page",
+      "option2": "How to display the page",
+      "option3": "How to display message box on page",
+      "option4": "None of these",
+      "img": "../admin/images/",
+      "id": 4
+    },
+    {
+      "question": "What are Empty elements and is it valid?",
+      "answer": "Empty elements are element with no data",
+      "option1": "No, there is no such terms as Empty Element",
+      "option2": "Empty elements are element with no data",
+      "option3": "No, it is not valid to use Empty Element",
+      "option4": "None of these",
+      "img": "../admin/images/",
+      "id": 5
+    }
+  ],
+  "js": [
+    {
+      "question": " What will be the output of the following JavaScript code?",
+      "answer": "Prints the numbers in the array in order",
+      "option1": "Prints the numbers in the array in order",
+      "option2": "Prints the numbers in the array in the reverse order",
+      "option3": "Prints 0 to the length of the array",
+      "option4": "Prints “Empty Array”",
+      "img": "../admin/images/js-forloop-1.png",
+      "id": 1
+    },
+    {
+      "question": "Which built-in method returns the calling string value converted to lower case?",
+      "answer": "toLowerCase()",
+      "option1": "toLowerCase()",
+      "option2": "toLower()",
+      "option3": "changeCase(case)",
+      "option4": "None of the above.",
+      "img": "../admin/images/",
+      "id": 2
+    },
+    {
+      "question": "Which of the following function of String object returns the character at the specified index?",
+      "answer": "charAt()",
+      "option1": "concat()",
+      "option2": "charCodeAt()",
+      "option3": "charAt()",
+      "option4": "indexOf()",
+      "img": "../admin/images/",
+      "id": 3
+    },
+    {
+      "question": "What will be the role of the continue keyword in the following JavaScript code snippet?",
+      "answer": "The continue keyword skips the rest of the statements in that iteration",
+      "option1": "The continue keyword restarts the loop",
+      "option2": "The continue keyword skips the rest of the statements in that iteration",
+      "option3": "The continue keyword skips the next iteration",
+      "option4": "The continue keyword breaks out of the loop",
+      "img": "../admin/images/js-whileloop.png",
+      "id": 4
+    },
+    {
+      "question": "Among the keywords below, which one is not a statement?",
+      "answer": "use strict",
+      "option1": "debugger ",
+      "option2": "if",
+      "option3": "with ",
+      "option4": "use strict",
+      "img": "../admin/images/",
+      "id": 5
+    }
+  ],
+  "css": [
+    {
+      "question": "Can we align a Block element by setting the left and right margins?",
+      "answer": "Not Possible",
+      "option1": "Yes, we can",
+      "option2": "Not Possible",
+      "option3": "I don't know",
+      "option4": "None of the above.",
+      "img": "../admin/images/",
+      "id": 1
+    },
+    {
+      "question": "If we want to wrap a block of text around an image, which css property will we use ?",
+      "answer": "float",
+      "option1": "float",
+      "option2": "wrap",
+      "option3": "push",
+      "option4": "align",
+      "img": "../admin/images/",
+      "id": 2
+    },
+    {
+      "question": "If we want to show an Arrow as cursor, then which value we will use ?",
+      "answer": "default",
+      "option1": "pointer",
+      "option2": "array",
+      "option3": "default",
+      "option4": "arr",
+      "img": "../admin/images/",
+      "id": 3
+    },
+    {
+      "question": "If we want to use a nice looking green dotted border around an image, which CSS property will we use?",
+      "answer": "border-style",
+      "option1": "border-color",
+      "option2": "border-decoration",
+      "option3": "border-style",
+      "option4": "border-line",
+      "img": "../admin/images/",
+      "id": 4
+    },
+    {
+      "question": "Which element is used in the <HEAD> section on an HTML / XHTMLpage, if we want to use an external style sheet file to decorate the page ?",
+      "answer": "link",
+      "option1": "src",
+      "option2": "link",
+      "option3": "style",
+      "option4": "css",
+      "img": "../admin/images/",
+      "id": 5
+    }
+  ],
+  "sass": [
+    {
+      "question": "___________ sets the style rule to different media types.",
+      "answer": "@media",
+      "option1": "@media",
+      "option2": "@import",
+      "option3": "@extend",
+      "option4": "@debug",
+      "img": "../admin/images/",
+      "id": 1
+    },
+    {
+      "question": "In __________ directive, a variable is defined which contains the value of each item in a list.",
+      "answer": "@each",
+      "option1": "@if",
+      "option2": "@each",
+      "option3": "@for",
+      "option4": "@while",
+      "img": "../admin/images/",
+      "id": 2
+    },
+    {
+      "question": "Which of the following is the correct way to define a variable in Sass?",
+      "answer": "$primary-color: #888;",
+      "option1": "@primary-color: #888;",
+      "option2": "%primary-color: #888;",
+      "option3": "#primary-color: #888;",
+      "option4": "$primary-color: #888;",
+      "img": "../admin/images/",
+      "id": 3
+    },
+    {
+      "question": "Which of the following directive allows you to generate styles in a loop?",
+      "answer": "@for",
+      "option1": "@while",
+      "option2": "@if",
+      "option3": "@for",
+      "option4": "@each",
+      "img": "../admin/images/",
+      "id": 4
+    },
+    {
+      "question": "Which directive is used to define the mixin?",
+      "answer": "@mixin",
+      "option1": "@include",
+      "option2": "@mixin",
+      "option3": "@extend",
+      "option4": "@debug",
+      "img": "../admin/images/",
+      "id": 5
+    }
+  ],
+  "node": [
+    {
+      "question": " Which statement executes the code of sample.js file?",
+      "answer": "node sample.js",
+      "option1": " nodejs sample.js",
+      "option2": "node sample.js",
+      "option3": "sample.js",
+      "option4": "None of the above",
+      "img": "../admin/images/",
+      "id": 1
+    },
+    {
+      "question": "The Node.js modules can be exposed using",
+      "answer": "module.exports",
+      "option1": "module.expose",
+      "option2": "module",
+      "option3": "module.exports",
+      "option4": "All of the above",
+      "img": "../admin/images/",
+      "id": 2
+    },
+    {
+      "question": " How can we check the current version of NPM?",
+      "answer": " npm --version",
+      "option1": " npm --version",
+      "option2": "npm --ver",
+      "option3": "npm help",
+      "option4": "None of the above",
+      "img": "../admin/images/",
+      "id": 3
+    },
+    {
+      "question": "Is console a global object?",
+      "answer": "null",
+      "option1": "null",
+      "option2": "false",
+      "option3": "true",
+      "option4": "None",
+      "img": "../admin/images/",
+      "id": 4
+    },
+    {
+      "question": "To install Node.js express module",
+      "answer": "$ npm install express",
+      "option1": "$ npm install express",
+      "option2": "$ node install express",
+      "option3": "$ install express",
+      "option4": " None of above",
+      "img": "../admin/images/",
+      "id": 5
+    }
+  ],
+  "bootstrap": [
+    {
+      "question": " Bootstrap's grid system allows up to _____ columns across the page.",
+      "answer": "12",
+      "option1": "12",
+      "option2": "13",
+      "option3": "14",
+      "option4": "11",
+      "img": "../admin/images/",
+      "id": 1
+    },
+    {
+      "question": "How many Container class are there in Bootstrap?",
+      "answer": "2",
+      "option1": "2",
+      "option2": "1",
+      "option3": "3",
+      "option4": "0",
+      "img": "../admin/images/",
+      "id": 2
+    },
+    {
+      "question": " The __________ class makes a table more compact by cutting cell padding in half.",
+      "answer": ".table-condensed",
+      "option1": ".table-bordered",
+      "option2": ".table-responsive",
+      "option3": ".table-striped",
+      "option4": ".table-condensed",
+      "img": "../admin/images/",
+      "id": 3
+    },
+    {
+      "question": " The Bootstrap grid system has four classes which define screen size:",
+      "answer": "xs, sm, md, lg",
+      "option1": "xs, sm, md, lg",
+      "option2": "s, sm, mid, lg",
+      "option3": "xs, sml, mid, lg",
+      "option4": "x, sm, md, lg",
+      "img": "../admin/images/",
+      "id": 4
+    },
+    {
+      "question": "Which class is used to add rounded corners to an image?\n",
+      "answer": " .img-rounded",
+      "option1": ".img-circle",
+      "option2": " .img-rounded",
+      "option3": "Both of the above",
+      "option4": "None of the above",
+      "img": "../admin/images/",
+      "id": 5
+    }
+  ],
+  "results": [
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "2",
+      "totalMarks": "3",
+      "timeElapsed": "2:52",
+      "percentage": "66.66666666666666",
+      "dateTime": "15/1/2021 : 14:05:08",
+      "responses": "[\"Option 1\",\"Hypertext Markup Language.\",\"Hypertext Machine language.\"]",
+      "id": 1
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "1",
+      "totalMarks": "3",
+      "timeElapsed": "2:53",
+      "percentage": "33.33333333333333",
+      "dateTime": "15/1/2021 : 14:05:30",
+      "responses": "[\"Option 1\",\"Hypertext Machine language\",\"Hypertext and links markup language\"]",
+      "id": 2
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "4",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 14:26:47",
+      "responses": "[]",
+      "id": 3
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "3",
+      "totalMarks": "4",
+      "timeElapsed": "2:53",
+      "percentage": "75",
+      "dateTime": "15/1/2021 : 14:35:32",
+      "responses": "[\"Option 1\",\"Hypertext and links markup language\",\"Hypertext Markup Language\",\"a\"]",
+      "id": 4
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "4",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 14:39:39",
+      "responses": "[]",
+      "id": 5
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "1",
+      "totalMarks": "4",
+      "timeElapsed": "2:48",
+      "percentage": "25",
+      "dateTime": "15/1/2021 : 14:56:55",
+      "responses": "[\"Option 3\",\"Hypertext Machine language\",\"Hypertext Markup Language\",\"b\"]",
+      "id": 6
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 15:55:49",
+      "responses": "[]",
+      "id": 7
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 16:34:11",
+      "responses": "[]",
+      "id": 8
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 16:37:57",
+      "responses": "[]",
+      "id": 9
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 16:44:59",
+      "responses": "[]",
+      "id": 10
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "20",
+      "dateTime": "15/1/2021 : 16:48:03",
+      "responses": "[\"Option 1\"]",
+      "id": 11
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 16:51:06",
+      "responses": "[\"Option 2\",\"Hypertext and links markup language\"]",
+      "id": 12
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "20",
+      "dateTime": "15/1/2021 : 16:54:09",
+      "responses": "[\"Option 1\",\"Hypertext and links markup language\"]",
+      "id": 13
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "15/1/2021 : 16:57:15",
+      "responses": "[]",
+      "id": 14
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "HTML",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:16",
+      "percentage": "60",
+      "dateTime": "15/1/2021 : 19:52:26",
+      "responses": "[\"Option 1\",\"Hypertext Markup Language.\",\"Hypertext and links markup language\",\"a\",\"vsdv\"]",
+      "id": 15
+    },
+    {
+      "userid": "O0hIUpKPiaQVjWam2iP6kk5OKft2",
+      "subject": "JS",
+      "marksObtained": "3",
+      "totalMarks": "4",
+      "timeElapsed": "1:4",
+      "percentage": "75",
+      "dateTime": "15/1/2021 : 20:28:20",
+      "responses": "[\"vgs\",\"Option 1\",\"Option 1\",\"js2 \"]",
+      "id": 16
+    },
+    {
+      "userid": "gGiIv1gWsKQxQBtnDvcoZJMdjwz1",
+      "subject": "HTML",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "2:49",
+      "percentage": "20",
+      "dateTime": "16/1/2021 : 14:02:32",
+      "responses": "[\"Option 4\",\"Hightext machine language\",\"Hightext machine language.\",\"a\",\"avsd\"]",
+      "id": 17
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "HTML",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:27",
+      "percentage": "60",
+      "dateTime": "16/1/2021 : 20:31:18",
+      "responses": "[\"Option 1\",\"Hypertext Machine language\",\"Hypertext Markup Language\",\"a\",\"vadv\"]",
+      "id": 18
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "HTML",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:46",
+      "percentage": "60",
+      "dateTime": "16/1/2021 : 20:31:35",
+      "responses": "[\"Option 1\",\"Hypertext Markup Language.\",null,\"a\",\"vsd\"]",
+      "id": 19
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "JS",
+      "marksObtained": "4",
+      "totalMarks": "5",
+      "timeElapsed": "2:37",
+      "percentage": "80",
+      "dateTime": "16/1/2021 : 22:05:46",
+      "responses": "[\"Option 1\",\"Option 1\",\"Option 1\",\"js1\",\"urvashi\"]",
+      "id": 20
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "JS",
+      "marksObtained": "4",
+      "totalMarks": "5",
+      "timeElapsed": "2:49",
+      "percentage": "80",
+      "dateTime": "16/1/2021 : 22:06:49",
+      "responses": "[\"vgs\",\"Option 1\",\"Option 1\",\"js3\",\"urvashi\"]",
+      "id": 21
+    },
+    {
+      "userid": "aGUIe0kSI8SnEyYRM3eHEoUqsKI3",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "17/1/2021 : 09:48:46",
+      "responses": "[]",
+      "id": 22
+    },
+    {
+      "userid": "Xt1FUNTIUxciNm5XoCoiq0qGMOn1",
+      "subject": "HTML",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:44",
+      "percentage": "60",
+      "dateTime": "17/1/2021 : 11:48:58",
+      "responses": "[\"TD\",\"h1\",\"Both (a)&(b)\",\"How to organise the page\",\"Empty elements are element with no data\"]",
+      "id": 23
+    },
+    {
+      "userid": "Xt1FUNTIUxciNm5XoCoiq0qGMOn1",
+      "subject": "HTML",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:55",
+      "percentage": "60",
+      "dateTime": "17/1/2021 : 12:07:22",
+      "responses": "[\"TD\",\"h1\",\"Both (a)&(b)\",\"How to organise the page\",\"Empty elements are element with no data\"]",
+      "id": 24
+    },
+    {
+      "userid": "Xt1FUNTIUxciNm5XoCoiq0qGMOn1",
+      "subject": "HTML",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "2:56",
+      "percentage": "20",
+      "dateTime": "17/1/2021 : 13:54:15",
+      "responses": "[\"TD\",\"h6\",\"Method\",\"How to display the page\",\"No, it is not valid to use Empty Element\"]",
+      "id": 25
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "SASS",
+      "marksObtained": "0",
+      "totalMarks": "0",
+      "timeElapsed": "2:37",
+      "percentage": "NaN",
+      "dateTime": "17/1/2021 : 15:09:34",
+      "responses": "[]",
+      "id": 26
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "SASS",
+      "marksObtained": "0",
+      "totalMarks": "0",
+      "timeElapsed": "2:58",
+      "percentage": "NaN",
+      "dateTime": "17/1/2021 : 15:09:54",
+      "responses": "[]",
+      "id": 27
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "HTML",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:41",
+      "percentage": "60",
+      "dateTime": "17/1/2021 : 16:53:17",
+      "responses": "[\"P\",\"heading\",\"None of these\",\"How to display the page\",\"Empty elements are element with no data\"]",
+      "id": 28
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "JS",
+      "marksObtained": "0",
+      "totalMarks": "1",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "17/1/2021 : 17:37:57",
+      "responses": "[]",
+      "id": 29
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "JS",
+      "marksObtained": "0",
+      "totalMarks": "1",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "17/1/2021 : 17:41:47",
+      "responses": "[]",
+      "id": 30
+    },
+    {
+      "userid": "4WCjyinWOPfSs1ZtRPu1ngkTzta2",
+      "subject": "JS",
+      "marksObtained": "0",
+      "totalMarks": "1",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "17/1/2021 : 17:44:49",
+      "responses": "[]",
+      "id": 31
+    },
+    {
+      "userid": "eYpMxGdHaOW2VmYQvAdkMXjmVYu1",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "2:49",
+      "percentage": "0",
+      "dateTime": "18/1/2021 : 10:12:21",
+      "responses": "[\"Yes, we can\",\"wrap\",\"array\",\"border-decoration\",\"css\"]",
+      "id": 32
+    },
+    {
+      "userid": "eYpMxGdHaOW2VmYQvAdkMXjmVYu1",
+      "subject": "BOOTSTRAP",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:11",
+      "percentage": "60",
+      "dateTime": "18/1/2021 : 11:20:15",
+      "responses": "[\"12\",\"2\",\".table-striped\",\"xs, sm, md, lg\",\"None of the above\"]",
+      "id": 33
+    },
+    {
+      "userid": "eYpMxGdHaOW2VmYQvAdkMXjmVYu1",
+      "subject": "BOOTSTRAP",
+      "marksObtained": "5",
+      "totalMarks": "5",
+      "timeElapsed": "2:42",
+      "percentage": "100",
+      "dateTime": "18/1/2021 : 11:21:32",
+      "responses": "[\"12\",\"2\",\".table-condensed\",\"xs, sm, md, lg\",\" .img-rounded\"]",
+      "id": 34
+    },
+    {
+      "userid": "eYpMxGdHaOW2VmYQvAdkMXjmVYu1",
+      "subject": "JS",
+      "marksObtained": "2",
+      "totalMarks": "5",
+      "timeElapsed": "2:11",
+      "percentage": "40",
+      "dateTime": "18/1/2021 : 11:46:57",
+      "responses": "[\"Prints the numbers in the array in order\",\"toLower()\",\"charAt()\",\"The continue keyword skips the next iteration\",\"debugger \"]",
+      "id": 35
+    },
+    {
+      "userid": "eYpMxGdHaOW2VmYQvAdkMXjmVYu1",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "2:49",
+      "percentage": "0",
+      "dateTime": "18/1/2021 : 13:55:49",
+      "responses": "[\"Yes, we can\",\"wrap\",\"array\",\"border-line\",\"css\"]",
+      "id": 36
+    },
+    {
+      "userid": "eYpMxGdHaOW2VmYQvAdkMXjmVYu1",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "2:52",
+      "percentage": "0",
+      "dateTime": "18/1/2021 : 16:19:34",
+      "responses": "[\"Yes, we can\",\"wrap\",\"array\",\"border-decoration\",\"css\"]",
+      "id": 37
+    },
+    {
+      "userid": "L70pi3yjC4gKK9N2oH03mDe38YU2",
+      "subject": "CSS",
+      "marksObtained": "2",
+      "totalMarks": "5",
+      "timeElapsed": "2:33",
+      "percentage": "40",
+      "dateTime": "18/1/2021 : 16:31:47",
+      "responses": "[\"Yes, we can\",\"float\",\"pointer\",\"border-decoration\",\"link\"]",
+      "id": 38
+    },
+    {
+      "userid": "a7UTLx6TnKZlufvENyb06BDpZqt2",
+      "subject": "HTML",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "2:53",
+      "percentage": "20",
+      "dateTime": "18/1/2021 : 18:30:06",
+      "responses": "[\"TD\",\"head\",\"Both (a)&(b)\",\"How to display message box on page\",\"No, it is not valid to use Empty Element\"]",
+      "id": 39
+    },
+    {
+      "userid": "a7UTLx6TnKZlufvENyb06BDpZqt2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "2:54",
+      "percentage": "0",
+      "dateTime": "18/1/2021 : 19:04:37",
+      "responses": "[\"TD\",\"h6\",\"Action\",\"How to display message box on page\",\"None of these\"]",
+      "id": 40
+    },
+    {
+      "userid": "a7UTLx6TnKZlufvENyb06BDpZqt2",
+      "subject": "JS",
+      "marksObtained": "4",
+      "totalMarks": "5",
+      "timeElapsed": "2:45",
+      "percentage": "80",
+      "dateTime": "18/1/2021 : 19:05:43",
+      "responses": "[\"Prints the numbers in the array in order\",\"toLowerCase()\",\"charAt()\",\"The continue keyword restarts the loop\",\"use strict\"]",
+      "id": 41
+    },
+    {
+      "userid": "a7UTLx6TnKZlufvENyb06BDpZqt2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "2:55",
+      "percentage": "0",
+      "dateTime": "18/1/2021 : 20:24:50",
+      "responses": "[\"TD\",\"h6\",\"Method\",\"How to display message box on page\",\"No, it is not valid to use Empty Element\"]",
+      "id": 42
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "2:52",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 09:39:51",
+      "responses": "[\"Yes, we can\",\"wrap\",\"arr\",\"border-decoration\",\"src\"]",
+      "id": 43
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 10:17:10",
+      "responses": "[]",
+      "id": 44
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 10:51:54",
+      "responses": "[]",
+      "id": 45
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 10:54:58",
+      "responses": "[]",
+      "id": 46
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "HTML",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 10:54:58",
+      "responses": "[]",
+      "id": 47
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "2:56",
+      "percentage": "20",
+      "dateTime": "19/1/2021 : 10:57:17",
+      "responses": "[\"Not Possible\"]",
+      "id": 48
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:00:19",
+      "responses": "[]",
+      "id": 49
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:05:36",
+      "responses": "[]",
+      "id": 50
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:08:39",
+      "responses": "[]",
+      "id": 51
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:15:27",
+      "responses": "[]",
+      "id": 52
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:15:27",
+      "responses": "[]",
+      "id": 53
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:26:27",
+      "responses": "[]",
+      "id": 54
+    },
+    {
+      "userid": "d2VPnRZmBrS9kevx7RsxcOV9hWU2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "0:01",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:32:16",
+      "responses": "[]",
+      "id": 55
+    },
+    {
+      "userid": "8NAfjlnGQMOJuIgQSAwseVqBbUa2",
+      "subject": "BOOTSTRAP",
+      "marksObtained": "2",
+      "totalMarks": "5",
+      "timeElapsed": "2:40",
+      "percentage": "40",
+      "dateTime": "19/1/2021 : 11:42:07",
+      "responses": "[\"12\",\"2\",\".table-striped\",\"xs, sml, mid, lg\",\"Both of the above\"]",
+      "id": 56
+    },
+    {
+      "userid": "8NAfjlnGQMOJuIgQSAwseVqBbUa2",
+      "subject": "JS",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "2:53",
+      "percentage": "20",
+      "dateTime": "19/1/2021 : 11:47:03",
+      "responses": "[\"Prints the numbers in the array in the reverse order\",\"changeCase(case)\",\"charAt()\",\"The continue keyword skips the next iteration\",\"with \"]",
+      "id": 57
+    },
+    {
+      "userid": "8NAfjlnGQMOJuIgQSAwseVqBbUa2",
+      "subject": "CSS",
+      "marksObtained": "3",
+      "totalMarks": "5",
+      "timeElapsed": "2:56",
+      "percentage": "60",
+      "dateTime": "19/1/2021 : 11:54:05",
+      "responses": "[\"Not Possible\",\"push\",\"default\",\"border-style\",\"style\"]",
+      "id": 58
+    },
+    {
+      "userid": "8NAfjlnGQMOJuIgQSAwseVqBbUa2",
+      "subject": "CSS",
+      "marksObtained": "0",
+      "totalMarks": "5",
+      "timeElapsed": "2:52",
+      "percentage": "0",
+      "dateTime": "19/1/2021 : 11:57:48",
+      "responses": "[\"Yes, we can\",\"push\",\"array\",\"border-decoration\",\"css\"]",
+      "id": 59
+    },
+    {
+      "userid": "8NAfjlnGQMOJuIgQSAwseVqBbUa2",
+      "subject": "CSS",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "2:55",
+      "percentage": "20",
+      "dateTime": "19/1/2021 : 11:59:18",
+      "responses": "[\"Not Possible\",null,null,null,\"css\"]",
+      "id": 60
+    },
+    {
+      "userid": "Ij1iQHiBg0cn9NxQgmlIz5dvdlX2",
+      "subject": "BOOTSTRAP",
+      "marksObtained": "1",
+      "totalMarks": "5",
+      "timeElapsed": "2:38",
+      "percentage": "20",
+      "dateTime": "19/1/2021 : 14:56:41",
+      "responses": "[\"12\",\"1\",\".table-responsive\",\"s, sm, mid, lg\"]",
+      "id": 61
+    }
+  ]
+}

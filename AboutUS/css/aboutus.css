@@ -1,0 +1,155 @@
+nav {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+
+nav a {
+    margin-left: 10px;
+}
+
+#navbar {
+    background-color: #333;
+}
+
+.navbar-nav #a1:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #dashboard:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #login_button:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #signup_button:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+
+.navbar-nav #logout:hover {
+    background-color: #3aafa9;
+    color: white;
+}
+nav {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+#myUL {
+    list-style-type: none;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+#nav-name {
+    color: #3aafa9;
+    padding-right: 1%;
+    font-size: x-large;
+}
+
+#useremail {
+    font-size: smaller;
+}
+
+.right {
+    position: relative;
+    float: right;
+}
+
+#collapsibleNavbar {
+    padding-left: 10%;
+}
+
+#login {
+    padding-left: 60%;
+}
+
+#container {
+    margin-left: 4%;
+}
+
+#useremail {
+    margin: auto;
+    color: white;
+}
+
+body {
+    background-image: url(apple.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #282828
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card img {
+    height: 230px;
+}
+
+#background {
+    background-color: #d5d5d5;
+}
+
+footer {
+    background-color: white;
+    color: black;
+}
+
+#footerlink {
+    margin-top: 8px;
+}
+
+#copywrite {
+    background-color: #17252a;
+}
+
+#copywrite p {
+    color: white;
+    margin-top: 8px;
+
+}
+
+#copywrite a {
+    color: white;
+}
+
+.tooltip-wrap {
+    position: relative;
+}
+
+#image {
+    margin-left: 23px;
+}
+
+.tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    right: 5%;
+    background-image: linear-gradient(to left, rgba(12, 14, 13, 0.6), rgba(32, 33, 36, 0.7));
+    color: white;
+    padding: 2px;
+}
+
+.tooltip-wrap:hover .tooltip-content {
+    display: block;
+}

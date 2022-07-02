@@ -1,0 +1,42 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #0b1b2c;
+}
+
+.start_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.2), 
+                0 6px 20px 0 rgba(250, 240, 240, 0.19);
+}
+
+.start_btn button{
+    font-size: 25px;
+    font-weight: 500;
+    color: #0d0d0e;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #3aafa9;
+    cursor: pointer;
+}
+
+/* .start_btn  :hover{
+    
+    background-image: linear-gradient(to left, rgba(12, 14, 14, 0.6), rgba(20, 20, 20, 0.7));
+    color: white;
+} */
+
+body{
+    background-image: url(../../authentication/images/signUpBg.jpg);
+}
