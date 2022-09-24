@@ -1,13 +1,11 @@
-
-    var firebaseConfig = {
-    apiKey: "AIzaSyAJEMZuRtO87X5i7XXpjBxKbJQhwxngIyI",
-    authDomain: "javascrtipt-quizapp.firebaseapp.com",
-    databaseURL: "https://javascrtipt-quizapp-default-rtdb.firebaseio.com",
-    projectId: "javascrtipt-quizapp",
-    storageBucket: "javascrtipt-quizapp.appspot.com",
-    messagingSenderId: "569991045103",
-    appId: "1:569991045103:web:61bf531d3f8e44306ea01a",
-    measurementId: "G-LE32PT6KRT"
+const firebaseConfig = {
+    apiKey: "AIzaSyBSFZO4CpLNxgMgh1hub4SfiN9EWYuuKSY",
+    authDomain: "quizmaster-39347.firebaseapp.com",
+    databaseURL: "https://quizmaster-39347-default-rtdb.firebaseio.com",
+    projectId: "quizmaster-39347",
+    storageBucket: "quizmaster-39347.appspot.com",
+    messagingSenderId: "603033170231",
+    appId: "1:603033170231:web:fa820b4e206e7ebfdcaab2"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
